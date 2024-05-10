@@ -14,19 +14,34 @@ nav ul {
     text-align: center;
     list-style-type: none;
     margin-bottom: 100px;
+    
 }
 
 nav ul li {
     display: inline-block;
     margin-right: 20px;
+
 }
+
 
 nav ul li:last-child {
     margin-right: 0;
+    
 }
 
-.img {
-    border: 2px solid aqua;
+.div-nav {
+    width: 0 auto;
+    height: 60px;
+    margin-bottom:40px;
+    background-color: rgb(17, 7, 70);
+}
+
+.nav {
+    color: rgb(185, 183, 195);
+}
+
+.foto_portada {
+    border: 2px solid rgb(185, 183, 195);
     display: block;
     width: auto;
     height: auto;
@@ -37,22 +52,21 @@ nav ul li:last-child {
 .titulo {
     text-align: center;
     margin-top: 10px;
-    color: aqua;
+    color: rgb(185, 183, 195);
 }
-
 .squils {
     text-align: center;
-    color: aqua;
+    color: rgb(185, 183, 195);
 }
 
 hr {
     margin-top: 100px;
     margin-bottom: 100px;
-    color: aqua;
+    color: rgb(185, 183, 195);
 }
 
-.mifoto {
-    border: 2px solid aqua;
+.mi_foto {
+    border: 2px solid rgb(185, 183, 195);
     margin-top: 100px;
     display: block;
     width: auto;
@@ -67,7 +81,7 @@ hr {
     height: 70px;
     text-align: center;
     margin: 0 auto;
-    color: aqua;
+    color: rgb(185, 183, 195);
 }
 .sobre-mi {
     width: 600px;
@@ -77,17 +91,68 @@ hr {
     border-right: 30px;
     text-align: center;
     border-radius: 30px;
-    border: 2px solid aqua;
+    border: 2px solid  rgb(185, 183, 195);;
     background-color: rgb(39, 40, 40);
 }
 
 .parrafo1 {
     border-top: 10px;
-    color: aqua;
+    color: rgb(185, 183, 195);
     
 }
+
+
+h1 {
+    color: rgb(250, 247, 247);
+    text-align: center;
+}
+
+.contenedor {
+    margin-top: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(39, 40, 40);
+    padding: 20px;
+    border: 3px solid rgb(185, 183, 195);
+}
+
+.filas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.columnas {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 3px solid rgb(8, 27, 8);
+    border-radius: 20px;
+    background-color: rgb(37, 126, 25);
+    flex-grow: 1;
+    border: 3px solid  rgb(185, 183, 195);
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(170, 164, 164);
+}
+
+.foto_proyecto {
+    width: 145px;
+    height: 145px;
+    border-radius: 20px;
+}
+
+
 .pie {
     text-align: center;
     margin-top: 100px;
-    color: aqua;
+    color: rgb(185, 183, 195);
 }
