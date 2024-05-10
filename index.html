@@ -1,48 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-   
-    <h1>Tateti</h1>
-    
-    <div class="contenedor">
-        <div class="filas">
-            <div class="columnas" id="0" onclick="marcarCasilla(0)">Etiqueta div: 1</div>
-        
-            <div class="columnas" id="1" onclick="marcarCasilla(1)">Etiqueta div: 2 </div>
-        
-            <div class="columnas" id="2" onclick="marcarCasilla(2)">Etiqueta div: 3</div>
-        
-        </div>
-    
-        <div class="filas">
-            <div class="columnas" id="3" onclick="marcarCasilla(3)">Etiqueta div: 1</div>
-        
-            <div class="columnas" id="4" onclick="marcarCasilla(4)">Etiqueta div: 2 </div>
-        
-            <div class="columnas" id="5" onclick="marcarCasilla(5)">Etiqueta div: 3</div>
-        
-        </div>
-    
-        <div class="filas">
-            <div class="columnas" id="6" onclick="marcarCasilla(6)">Etiqueta div: 1</div>
-        
-            <div class="columnas" id="7" onclick="marcarCasilla(7)">Etiqueta div: 2 </div>
-        
-            <div class="columnas" id="8" onclick="marcarCasilla(8)">Etiqueta div: 3</div>
-        
-        </div>
+<body class="body">
+<div class="agrupar">
+	<div>
+	  <header class="cabezera">
+
+      <div class="div-nav">
+      <nav>
+        <ul>
+          <li><a href="#inicio" class="nav">Inicio</a></li>
+          <li><a href="#sobre-mi" class="nav">Sobre Mi</a></li>
+          <li><a href="#proyectos" class="nav">Proyectos</a></li>
+          <li><a href="#contacto" class="nav">Contacto</a></li>
+        </ul>
+      </nav>
     </div>
 
-    
-    
+      <img src="portada.jpeg" alt="" class="foto_portada">
+      <div>
+        <h1 class="titulo">Desarrollador Front End</h1>
+        <p class="squils">HTML | CSS | JAVASCRIPT | PYTHON | SQL | LINUX</p>
+        </div>
+    </div>
+      <hr>
+	  </header>
 
-    <script src="script.js"></script>
-</div>
-</body>
-</html>
+    <div class="contenido">
+      <img src="mifoto.jpg" alt="" class="mi_foto">
+
+      <div>
+         <h3 class="nombre">Miguel Angel santillan</h3>
+         <br>
+         <br>
+
+         <div class="sobre-mi">
+            <small class="parrafo1">
+            Como desarrollador web, poseo un sólido dominio de las tecnologías <br>
+            fundamentales que impulsan la experiencia del usuario en la web. <br>
+            Con experiencia significativa en HTML, CSS y JavaScript, tengo la <br> 
+            capacidad de crear interfaces web atractivas y dinámicas que no solo <br> 
+            son visualmente agradables, sino también funcionales y eficientes. <br>
+            Desde la estructura básica de un sitio hasta el diseño y la interactividad <br>
+            avanzada, tengo la destreza para convertir conceptos creativos en realidad <br>
+            digital.
+            <br>
+            <br>
+            Mi habilidad para traducir diseños de UI/UX en código limpio y semántico, <br>
+            combinado con un profundo conocimiento de los principios de diseño <br>
+            responsivo, garantiza que mis proyectos sean accesibles en todas las <br> 
+            plataformas y dispositivos. Además, mi experiencia en JavaScript me <br>
+            permite agregar funcionalidades interactivas y dinámicas, mejorando <br>
+            así la experiencia del usuario y la interactividad del sitio web.
+            <br>
+            <br>
+          
+            Además de mis habilidades técnicas, también valoro y practico habilidades <br>
+            blandas como la comunicación efectiva, la resolución de problemas y el <br>
+            trabajo en equipo. Estas habilidades me permiten colaborar de manera <br>
+            efectiva con diseñadores, desarrolladores y partes interesadas para <br>
+            crear soluciones web que cumplan con los objetivos del proyecto y superen <br>
+            las expectativas del cliente. Con un enfoque centrado en el usuario y <br>
+            una mentalidad orientada a los resultados, estoy comprometido a ofrecer <br>
+            productos web de alta calidad que generen un impacto positivo en los <br>
+            usuarios y en el negocio.
+            </small>  
+          </div>
+
+
+    <div class="contenedor">
+      <div class="filas">
+          <div class="columnas" id="0" onclick="marcarCasilla(0)"></div>
+      
+          <div class="columnas" id="1" onclick="marcarCasilla(1)"></div>
+      
+          <div class="columnas" id="2" onclick="marcarCasilla(2)"></div>
+      
+      </div>
+  
+      <div class="filas">
+          <div class="columnas" id="3" onclick="marcarCasilla(3)"></div>
+      
+          <div class="columnas" id="4" onclick="marcarCasilla(4)"></div>
+      
+          <div class="columnas" id="5" onclick="marcarCasilla(5)"><img src="portada1.jpeg" alt="" class="foto_proyecto"></div>
+      </div>
+  
+      <div class="filas">
+          <div class="columnas" id="6" onclick="marcarCasilla(6)">Etiqueta div: 1</div>
+      
+          <div class="columnas" id="7" onclick="marcarCasilla(7)">Etiqueta div: 2 </div>
+      
+          <div class="columnas" id="8" onclick="marcarCasilla(8)">Etiqueta div: 3</div>
+      
+      </div>
+  </div>
+          
+      </div>
+  </div>
